@@ -19,7 +19,7 @@ class MarkdownBear:
     """
 
     LANGUAGES = {'Markdown'}
-    REQUIREMENTS = {NpmRequirement('remark-cli', '2'),
+    REQUIREMENTS = {NpmRequirement('remark-cli', '3'),
                     NpmRequirement('remark-lint', '5'),
                     NpmRequirement('remark-validate-links', '5')}
     AUTHORS = {'The coala developers'}
